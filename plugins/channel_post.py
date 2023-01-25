@@ -60,14 +60,14 @@ async def channel_post(client: Client, message: Message):
         [
             [
                 InlineKeyboardButton(
-                    "🔁 Share Link", url=f"https://telegram.me/share/url?url={link}"
+                    "𝐒𝐄𝐁𝐀𝐑 𝐋𝐈𝐍𝐊 √", url=f"https://telegram.me/share/url?url={link}"
                 )
             ]
         ]
     )
 
     await reply_text.edit(
-        f"<b>Link Sharing File Berhasil Di Buat :</b>\n\n{link}",
+        f"<b>Link Bokep Sudah Berhasil :</b>\n\n{link}",
         reply_markup=reply_markup,
         disable_web_page_preview=True,
     )
@@ -95,7 +95,7 @@ async def new_post(client: Client, message: Message):
         [
             [
                 InlineKeyboardButton(
-                    "🔁 Share Link", url=f"https://telegram.me/share/url?url={link}"
+                    "𝐒𝐄𝐁𝐀𝐑 𝐋𝐈𝐍𝐊 √", url=f"https://telegram.me/share/url?url={link}"
                 )
             ]
         ]
