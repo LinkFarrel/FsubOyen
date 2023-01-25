@@ -88,7 +88,7 @@ async def start_command(client: Bot, message: Message):
                 ids = [int(int(argument[1]) / abs(client.db_channel.id))]
             except BaseException:
                 return
-        temp_msg = await message.reply("<code>Tunggu Sebentar...</code>")
+        temp_msg = await message.reply("<code>Tunggu Ngentot....</code>")
         try:
             messages = await get_messages(client, ids)
         except BaseException:
@@ -171,7 +171,7 @@ async def not_joined(client: Bot, message: Message):
 @Bot.on_message(filters.command(["users", "stats"]) & filters.user(ADMINS))
 async def get_users(client: Bot, message: Message):
     msg = await client.send_message(
-        chat_id=message.chat.id, text="<code>Processing ...</code>"
+        chat_id=message.chat.id, text="<code>Sedang Proses...</code>"
     )
     users = await full_userbase()
     await msg.edit(f"{len(users)} <b>Pengguna menggunakan bot ini</b>")
@@ -189,7 +189,7 @@ async def send_text(client: Bot, message: Message):
         unsuccessful = 0
 
         pls_wait = await message.reply(
-            "<code>Broadcasting Message Tunggu Sebentar...</code>"
+            "<code>Broadcasting Message Tunggu Sebentar Tot...</code>"
         )
         for row in query:
             chat_id = int(row[0])
