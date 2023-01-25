@@ -23,24 +23,24 @@ class Data:
  ├ /speedtest - Untuk Mengetes kecepatan server bot
  └ /broadcast - Untuk mengirim pesan broadcast ke pengguna bot
 
-👨‍💻 Develoved by </b><a href='https://t.me/Lunatic0de/101'>@Lunatic0de</a>
+👨‍💻 Develoved by </b><a href='https://t.me/kunapya'>@kunapya</a>
 """
 
     close = [
-        [InlineKeyboardButton("ᴛᴜᴛᴜᴘ", callback_data="close")]
+        [InlineKeyboardButton("•𝐓𝐔𝐓𝐔𝐏•", callback_data="close")]
     ]
 
     mbuttons = [
         [
-            InlineKeyboardButton("ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help"),
-            InlineKeyboardButton("ᴛᴜᴛᴜᴘ", callback_data="close")
+            InlineKeyboardButton("•𝐇𝐄𝐋𝐏 & 𝐏𝐄𝐑𝐈𝐍𝐓𝐀𝐇•", callback_data="help"),
+            InlineKeyboardButton("•𝐓𝐔𝐓𝐔𝐏•", callback_data="close")
         ],
     ]
 
     buttons = [
         [
-            InlineKeyboardButton("ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ", callback_data="about"),
-            InlineKeyboardButton("ᴛᴜᴛᴜᴘ", callback_data="close")
+            InlineKeyboardButton("•𝐓𝐄𝐍𝐓𝐀𝐍𝐆 𝐁𝐎𝐓 𝐈𝐍𝐈•", callback_data="about"),
+            InlineKeyboardButton("•𝐓𝐔𝐓𝐔𝐏•", callback_data="close")
         ],
     ]
 
@@ -51,7 +51,7 @@ class Data:
 
  • Creator: @{}
  • Framework: <a href='https://docs.pyrogram.org'>Pyrogram</a>
- • Source Code: <a href='https://github.com/mrismanaziz/File-Sharing-Man'>File-Sharing-Man v4</a>
+ • Source Code: <a href='https://github.com/LinkFarrel/FsubOyen'>ForceSubsOyen</a>
 
-👨‍💻 Develoved by </b><a href='https://t.me/Lunatic0de/101'>@Lunatic0de</a>
+👨‍💻 Develoved by </b><a href='https://t.me/kunapya'>@kunapya</a>
 """
